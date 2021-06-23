@@ -35,4 +35,12 @@ mkdir ICVF
 # Run tbss_non_FA script
 tbss_non_FA MD
 tbss_non_FA OD
-tbss_non_FA ICVF
+tbss_non_FA ICV
+
+
+# --------------------------Step 5------------------------------------
+
+# Randomise Analysis for white matter
+randomise -i all_ICV_skeletonised.nii.gz -o NDI_regress_age_sex_gait -d endurance_age_sex_gait.mat -t endurance_age_sex_gait.con -m mean_FA_skeleton_mask.nii.gz -n 5000 --T2 -D
+randomise -i all_OD_skeletonised.nii.gz -o ODI_regress_age_sex_gait -d endurance_age_sex_gait.mat -t endurance_age_sex_gait.con -m mean_FA_skeleton_mask.nii.gz -n 5000 --T2 -D
+
