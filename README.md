@@ -1,6 +1,6 @@
 # HCP Younger Adult Gray and White Matter NODDI Analysis
 
-The following contains scripts used to acquire white and gray matter NODDI measures from the HCP Young Adult dataset.
+The following contains scripts that generally outline (paths were truncated) our procedure for analyzing white and gray matter microstructure in the HCP Young Adult dataset. https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release. 
 
 # Dependencies
 AMICO - https://github.com/daducci/AMICO;
