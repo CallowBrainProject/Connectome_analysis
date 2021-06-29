@@ -1,6 +1,6 @@
 # -------------------------Step 1-------------------------------------
 set subj= ($argv[1]) \
-
+set SUBJECTS_DIR=/Data/location
 
 cd ${SUBJECTS_DIR}/CONNECTOME/tbss
 mkdir MD
